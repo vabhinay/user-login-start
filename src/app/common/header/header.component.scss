@@ -1,0 +1,26 @@
+@import '../../../assets/scss/variable';
+
+header{
+    background: $primary-color;
+    height: 70px;
+    padding: 10px 20px 0px 20px;
+    .logo{
+        float: left;
+        h1{
+            font-size: 30px;
+            padding: 10px 0px 0px 0px;
+            font-family: sans-serif;
+            color: $secondry-color;
+        }
+    }
+    .user-click{
+        float: right;
+        button{
+            margin-left: 20px; 
+            border: none;
+            font-family: sans-serif;
+            font-size: 15px;
+            background: transparent;
+        }
+    }
+}
