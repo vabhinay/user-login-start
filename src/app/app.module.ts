@@ -9,7 +9,6 @@ import { FooterComponent } from './common/footer/footer.component';
 import { LoginComponent } from './common/login/login.component';
 import { UserComponent } from './container/user/user.component';
 import { EmployeeComponent } from './container/employee/employee.component';
-import { EmployeeListComponent } from './container/employee/employee-list/employee-list.component';
 
 const appRoutes: Routes = [
 {
@@ -43,7 +42,6 @@ component: LoginComponent
     LoginComponent,
     UserComponent,
     EmployeeComponent,
-    EmployeeListComponent,
   ],
   imports: [
     BrowserModule,
